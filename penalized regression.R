@@ -8,7 +8,7 @@ library(gridExtra)
 library(tidyverse)
 
 # read in the state medicaid data
-dataset <- read_csv("...\medicaid_data.csv")
+dataset <- read_csv("...\medicaid_data.csv") # consider using "file.choose()" instead of specifying the file path in quotes
 
 # store some things
 d <- dataset
